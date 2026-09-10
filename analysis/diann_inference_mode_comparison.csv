@@ -1,0 +1,7 @@
+Mode,Condition,MAP3K2-specific,MAP3K3-specific,Shared,MAP3K2_Reported,MAP3K3_Reported,MAP3K2_Median_PG_MaxLFQ,MAP3K3_Median_PG_MaxLFQ
+Baseline,DMSO,9,8,1,True,True,4328819.5,288760.65625
+Baseline,DTAGv1,0,8,1,False,True,,235635.359375
+PF,DMSO,9,8,1,True,True,4403428.5,286560.5625
+PF,DTAGv1,0,8,1,False,True,,212433.890625
+NPI,DMSO,9,8,1,True,True,4286353.5,284040.625
+NPI,DTAGv1,0,8,1,False,True,,333609.40625

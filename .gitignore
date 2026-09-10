@@ -1,0 +1,27 @@
+cat > .gitignore <<'EOF'
+# Large proteomics data and outputs
+*.parquet
+*.quant
+*.raw
+*.fasta
+
+libraries/
+logs/
+quant/
+results/
+work/
+fragpipe_benchmark/
+test_params/
+
+# Generated DIA-NN outputs
+*.log.txt
+*.stats.tsv
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# VS Code / OS
+.vscode/
+.DS_Store
+EOF
